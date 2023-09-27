@@ -21,9 +21,9 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tienda_de_barrio_db',
-        'USER': 'root',
-        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'NAME': os.getenv('NAME_DATABASE'),
+        'USER': os.getenv('USER_DATABASE'),
+        'PASSWORD': os.getenv('PASSWORD_DATABASE'),
         'HOST': 'localhost',
         'PORT': '',
     }
