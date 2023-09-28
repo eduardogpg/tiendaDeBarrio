@@ -90,6 +90,8 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+fabfile.py 
+
 # IPython
 profile_default/
 ipython_config.py
