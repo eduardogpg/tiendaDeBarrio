@@ -20,3 +20,6 @@ clear-local-db:
 # call with make import-db -e DB_FILE=<your-file-name>
 import-db: clear-local-db
 	mysql -u root tienda_de_barrio_db < $(DB_FILE)
+
+deploy:
+	fab deploy
